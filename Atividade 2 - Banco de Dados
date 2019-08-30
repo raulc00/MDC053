@@ -1,0 +1,35 @@
+1-
+a)	Funcionário (Matrícula*, Nome, Salário)
+Departamento (Código*, Nome)
+
+b)	Pessoa (ID*, Nome, Sexo, CPF, Inscrição, CNPJ)
+Física (ID*, Sexo, CPF)
+Jurídica (ID*, Inscrição, CNPJ)
+Endereço (ID*, CEP, Uf, Cidade, Número, Logradouro)
+c)	Banco (Código banco*, nome)
+Agência (Código Agência*, nome, Código Banco*)
+Empresta (Valor parcela, Quantidade parcelas, Taxa juros)
+ Cliente (CPF*, nome, data de nascimento)
+  
+d)	Fornecedor (ID Fornecedor*, nome)
+Produto (ID Produto*, nome)
+Consumidor (ID Consumidor*, nome)
+Fornece (ID Fornecedor*, ID Produto*, ID Consumidor*, data, quantidade)
+ 
+e)	Professor (Matricula Prof*, nome, titulo)
+Turma (Número*, sala)
+Aluno (Matrícula Aluno*, nome)
+
+f)	Cliente (CPF*, Nome)
+Financiamento (Número*,CPF*, data, valor, prazo)
+Veículo (Número*, Renavam*, valor, ano, num eixos, carga máxima, num portas, tamanho)
+
+g)	Autor (Email*, nome)
+Livro (ISBN*, titulo , email*, número*, cnpj)
+Editora (CNPJ*, nome)
+Exemplar ( número*, data aquisição)
+
+h)	Paciente (CPF*, nome)
+Telefone (CPF*, número*)
+Médico (CRM*, nome, especialidade)
+Consulta(data, CRM*, CPF*)
