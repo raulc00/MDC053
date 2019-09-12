@@ -1,0 +1,19 @@
+a)pi nome ^ titular(professor)
+
+b)pi id_aluno ^ frequência ^ nota (σ id_periodo = ‘20042’ ^ id_disciplina = MDC053 ^ id_turma = 1 (Historico))
+
+c)Pi sala (σ id_disciplina = ‘MDC053’ ^ id_periodo(Turma))
+
+d)Pi id_aluno (σ id_professor = ‘3056’ ^ id_periodo (Historico) X (Turma))
+
+e)Pi A.nome, D.nome( σ id_aluno = ‘199839550’ ^ nomeA ^  id_periodo ^ nomeD ^ frequência ^ nota(Aluno X Histórico X Disciplina)) 
+
+f)Pi id_aluno – nota (σ id_disciplina = ‘MDC053’ (Historico))
+
+g)Pi id_turma (σ id_professor = ‘3056’ ^ id_aluno = ‘199839550’ (Turma X Historico)
+
+h)Pi id_disciplina – id_professor (σ id_professor = ‘3056’ (Turma))
+
+i)Pi id_aluno ∩ id_disciplina (σ nome (Aluno X Historico))
+
+j)pi id_aluno, id_disciplina( sigma frequência>= 75% ^ nota >= 5 (histórico) / pi id_disciplina (disciplina))
